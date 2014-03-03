@@ -17,10 +17,15 @@ $(document).ready(function(){
 	
 	// Starting image
 	
-	var m = "0n";
+	var m = "0x1";
 	i(m);
 	
 	console.log(m);
+	
+	var door; // Opened the door
+	var talk; //Talked to p2
+	
+	
 	
 	// If user clicks on center panel
 	
@@ -210,13 +215,13 @@ $(document).ready(function(){
 			m="17sw";
 		}else if(m==="17sw") {
 			m="17s";
-		}else if(m==="17sw") {
+		}else if(m==="17s") {
 			m="17se";
-		}else if(m==="17sw") {
+		}else if(m==="17se") {
 			m="17e";
-		}else if(m==="17sw") {
+		}else if(m==="17e") {
 			m="17ne";
-		}else if(m==="17sw") {
+		}else if(m==="17ne") {
 			m="17n";
 		}
 		
@@ -462,13 +467,13 @@ $(document).ready(function(){
 			m="17se";
 		}else if(m==="17se") {
 			m="17s";
-		}else if(m==="17sw") {
+		}else if(m==="17s") {
 			m="17sw";
 		}else if(m==="17sw") {
 			m="17w";
-		}else if(m==="17sw") {
+		}else if(m==="17w") {
 			m="17nw";
-		}else if(m==="17sw") {
+		}else if(m==="17nw") {
 			m="17n";
 		}
 		
@@ -520,7 +525,134 @@ $(document).ready(function(){
 		
 		
 		i(m);
-		console.log("left");
+		console.log("right");
+	
+	});
+	
+	
+	
+	
+	
+	$(".center").click(function(){
+	
+		
+		if(m==="0x1") {
+			m="0w";
+			door = 0;
+			talk = 0;
+		}
+		
+		
+		
+		if(m==="0n") {
+			m="1n";
+		}else if(m==="0w" && talk===1) {
+			m="0y1";
+		}else if(m==="1n") {
+			m="2n";
+		}else if(m==="1s") {
+			m="0s";
+		}else if(m==="2n") {
+			m="3n";
+		}else if(m==="2s") {
+			m="1s";
+		}else if(m==="3n") {
+			m="4n";
+		}else if(m==="3s") {
+			m="2s";
+		}else if(m==="4n") {
+			m="5n";
+		}else if(m==="4s") {
+			m="3s";
+		}else if(m==="5n") {
+			m="6n";
+		}else if(m==="5s") {
+			m="4s";
+		}else if(m==="6n") {
+			m="7n";
+		}else if(m==="6s") {
+			m="5s";
+		}else if(m==="7n") {
+			m="8n";
+		}else if(m==="7s") {
+			m="6s";
+		}else if(m==="8n") {
+			m="9n";
+		}else if(m==="8s") {
+			m="7s";
+		}else if(m==="9n") {
+			m="10n";
+		}else if(m==="9s") {
+			m="8s";
+		}else if(m==="10n") {
+			m="11n";
+		}else if(m==="10s") {
+			m="9s";
+		}else if(m==="11n") {
+			m="12n";
+		}else if(m==="11s") {
+			m="10s";
+		}else if(m==="12n") {
+			m="13n";
+		}else if(m==="12s") {
+			m="11s";
+		}else if(m==="13n") {
+			m="14n";
+		}else if(m==="13s") {
+			m="12s";
+		}else if(m==="14n" && door===0) {
+			m="15n";
+		}else if(m==="14n") {
+			m="16n";
+		}else if(m==="14s") {
+			m="13s";
+		}else if(m==="15n") {
+			m="15n2";
+		}else if(m==="15n2") {
+			m="15n3";
+		}else if(m==="15n3") {
+			m="16n";
+			door = 1;
+		}else if(m==="16n") {
+			m="17n";
+		}else if(m==="16s") {
+			m="14s";
+		}else if(m==="17nw") {
+			m="18f";
+		}else if(m==="17s") {
+			m="16s";
+		}else if(m==="18f") {
+			m="19f";
+		}else if(m==="18b") {
+			m="17s";
+		}else if(m==="19f") {
+			m="20f";
+		}else if(m==="19b") {
+			m="18b";
+		}else if(m==="20f") {
+			m="21e";
+		}else if(m==="20b") {
+			m="19b";
+		}else if(m==="21s") {
+			m="22s";
+		}else if(m==="21w") {
+			m="20b";
+		}else if(m==="22n") {
+			m="21n";
+		}else if(m==="22s" && talk===0) {
+			m="22x1";
+		}else if(m==="22x1") {
+			m="22s";
+			talk = 1;
+		}
+		
+		
+		
+		
+		
+		
+		i(m);
+		console.log("center");
 	
 	});
 
