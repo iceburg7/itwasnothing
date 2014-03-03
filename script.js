@@ -31,6 +31,101 @@ $(document).ready(function(){
 	
 	$(".left").click(function(){
 	
+		
+		if(m==="0x1") {
+			m="0x2";
+			door = 0;
+			talk = 0;
+		}else if(m==="0x2") {
+			m="0x3";
+		}else if(m==="0x3") {
+			m="0x4";
+		}else if(m==="0x4") {
+			m="0x5";
+		}else if(m==="0x5") {
+			m="0x6";
+		}else if(m==="0x6") {
+			m="0w";
+		}else if(m==="22x1") {
+			m="22x2";
+		}else if(m==="22x2") {
+			m="22x3";
+		}else if(m==="22x3") {
+			m="22x4";
+		}else if(m==="22x4") {
+			m="22x5";
+		}else if(m==="22x5") {
+			m="22x6";
+		}else if(m==="22x6") {
+			m="22x7";
+		}else if(m==="22x7") {
+			m="22x8";
+		}else if(m==="22x8") {
+			m="22x9";
+		}else if(m==="22x9") {
+			m="22x10";
+		}else if(m==="22x10") {
+			m="22x11";
+		}else if(m==="22x11") {
+			m="22x12";
+		}else if(m==="22x12") {
+			m="22x13";
+		}else if(m==="22x13") {
+			m="22x14";
+		}else if(m==="22x14") {
+			m="22x15";
+		}else if(m==="22x15") {
+			m="22x16";
+		}else if(m==="22x16") {
+			m="22x17";
+		}else if(m==="22x17") {
+			m="22x18";
+		}else if(m==="22x18") {
+			m="22s";
+		}else if(m==="0y1") {
+			m="0y2";
+		}else if(m==="0y2") {
+			m="0y3";
+		}else if(m==="0y3") {
+			m="0y4";
+		}else if(m==="0y4") {
+			m="0y5";
+		}else if(m==="0y5") {
+			m="0y6";
+		}else if(m==="0y6") {
+			m="0y7";
+		}else if(m==="0y7") {
+			m="0y8";
+		}else if(m==="0y8") {
+			m="0y9";
+		}else if(m==="0y9") {
+			m="0y10";
+		}else if(m==="0y10") {
+			m="0y11";
+		}else if(m==="0y11") {
+			m="0y12";
+		}else if(m==="0y12") {
+			m="0y13";
+		}else if(m==="0y13") {
+			m="0y14";
+		}else if(m==="0y14") {
+			m="0y15";
+		}else if(m==="0y15") {
+			m="0y16";
+		}else if(m==="0y16") {
+			m="0y17";
+		}else if(m==="0y17") {
+			m="0y18";
+		}else if(m==="0y18") {
+			m="0y19";
+		}else if(m==="0y19") {
+			m="0y20";
+		}else if(m==="0y20") {
+			m="0y21";
+		}
+		
+		
+		
 		if(m==="0n") {
 			m="0w";
 		}else if(m==="0w") {
@@ -283,6 +378,101 @@ $(document).ready(function(){
 	
 	$(".right").click(function(){
 	
+		if(m==="0x1") {
+			m="0x2";
+			door = 0;
+			talk = 0;
+		}else if(m==="0x2") {
+			m="0x3";
+		}else if(m==="0x3") {
+			m="0x4";
+		}else if(m==="0x4") {
+			m="0x5";
+		}else if(m==="0x5") {
+			m="0x6";
+		}else if(m==="0x6") {
+			m="0w";
+		}else if(m==="22x1") {
+			m="22x2";
+		}else if(m==="22x2") {
+			m="22x3";
+		}else if(m==="22x3") {
+			m="22x4";
+		}else if(m==="22x4") {
+			m="22x5";
+		}else if(m==="22x5") {
+			m="22x6";
+		}else if(m==="22x6") {
+			m="22x7";
+		}else if(m==="22x7") {
+			m="22x8";
+		}else if(m==="22x8") {
+			m="22x9";
+		}else if(m==="22x9") {
+			m="22x10";
+		}else if(m==="22x10") {
+			m="22x11";
+		}else if(m==="22x11") {
+			m="22x12";
+		}else if(m==="22x12") {
+			m="22x13";
+		}else if(m==="22x13") {
+			m="22x14";
+		}else if(m==="22x14") {
+			m="22x15";
+		}else if(m==="22x15") {
+			m="22x16";
+		}else if(m==="22x16") {
+			m="22x17";
+		}else if(m==="22x17") {
+			m="22x18";
+		}else if(m==="22x18") {
+			m="22s";
+		}else if(m==="0y1") {
+			m="0y2";
+		}else if(m==="0y2") {
+			m="0y3";
+		}else if(m==="0y3") {
+			m="0y4";
+		}else if(m==="0y4") {
+			m="0y5";
+		}else if(m==="0y5") {
+			m="0y6";
+		}else if(m==="0y6") {
+			m="0y7";
+		}else if(m==="0y7") {
+			m="0y8";
+		}else if(m==="0y8") {
+			m="0y9";
+		}else if(m==="0y9") {
+			m="0y10";
+		}else if(m==="0y10") {
+			m="0y11";
+		}else if(m==="0y11") {
+			m="0y12";
+		}else if(m==="0y12") {
+			m="0y13";
+		}else if(m==="0y13") {
+			m="0y14";
+		}else if(m==="0y14") {
+			m="0y15";
+		}else if(m==="0y15") {
+			m="0y16";
+		}else if(m==="0y16") {
+			m="0y17";
+		}else if(m==="0y17") {
+			m="0y18";
+		}else if(m==="0y18") {
+			m="0y19";
+		}else if(m==="0y19") {
+			m="0y20";
+		}else if(m==="0y20") {
+			m="0y21";
+		}
+		
+		
+		
+		
 		if(m==="0n") {
 			m="0e";
 		}else if(m==="0e") {
@@ -537,9 +727,95 @@ $(document).ready(function(){
 	
 		
 		if(m==="0x1") {
-			m="0w";
+			m="0x2";
 			door = 0;
 			talk = 0;
+		}else if(m==="0x2") {
+			m="0x3";
+		}else if(m==="0x3") {
+			m="0x4";
+		}else if(m==="0x4") {
+			m="0x5";
+		}else if(m==="0x5") {
+			m="0x6";
+		}else if(m==="0x6") {
+			m="0w";
+		}else if(m==="22x1") {
+			m="22x2";
+		}else if(m==="22x2") {
+			m="22x3";
+		}else if(m==="22x3") {
+			m="22x4";
+		}else if(m==="22x4") {
+			m="22x5";
+		}else if(m==="22x5") {
+			m="22x6";
+		}else if(m==="22x6") {
+			m="22x7";
+		}else if(m==="22x7") {
+			m="22x8";
+		}else if(m==="22x8") {
+			m="22x9";
+		}else if(m==="22x9") {
+			m="22x10";
+		}else if(m==="22x10") {
+			m="22x11";
+		}else if(m==="22x11") {
+			m="22x12";
+		}else if(m==="22x12") {
+			m="22x13";
+		}else if(m==="22x13") {
+			m="22x14";
+		}else if(m==="22x14") {
+			m="22x15";
+		}else if(m==="22x15") {
+			m="22x16";
+		}else if(m==="22x16") {
+			m="22x17";
+		}else if(m==="22x17") {
+			m="22x18";
+		}else if(m==="22x18") {
+			m="22s";
+		}else if(m==="0y1") {
+			m="0y2";
+		}else if(m==="0y2") {
+			m="0y3";
+		}else if(m==="0y3") {
+			m="0y4";
+		}else if(m==="0y4") {
+			m="0y5";
+		}else if(m==="0y5") {
+			m="0y6";
+		}else if(m==="0y6") {
+			m="0y7";
+		}else if(m==="0y7") {
+			m="0y8";
+		}else if(m==="0y8") {
+			m="0y9";
+		}else if(m==="0y9") {
+			m="0y10";
+		}else if(m==="0y10") {
+			m="0y11";
+		}else if(m==="0y11") {
+			m="0y12";
+		}else if(m==="0y12") {
+			m="0y13";
+		}else if(m==="0y13") {
+			m="0y14";
+		}else if(m==="0y14") {
+			m="0y15";
+		}else if(m==="0y15") {
+			m="0y16";
+		}else if(m==="0y16") {
+			m="0y17";
+		}else if(m==="0y17") {
+			m="0y18";
+		}else if(m==="0y18") {
+			m="0y19";
+		}else if(m==="0y19") {
+			m="0y20";
+		}else if(m==="0y20") {
+			m="0y21";
 		}
 		
 		
@@ -641,8 +917,6 @@ $(document).ready(function(){
 			m="21n";
 		}else if(m==="22s" && talk===0) {
 			m="22x1";
-		}else if(m==="22x1") {
-			m="22s";
 			talk = 1;
 		}
 		
